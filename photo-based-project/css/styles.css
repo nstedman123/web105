@@ -1,0 +1,153 @@
+body {
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+figure {
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+    display: inline-block;
+}
+
+ 
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.content {
+    clear: both;
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+h1,
+h2,
+h3{
+    color: #fff;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+p {
+    font-weight: bold;
+    font-size: larger;
+    color: #fff;
+    
+}
+
+.nav-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
+
+
+#home-images {
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+}
+
+#home-images img {
+    width: 200px;
+    height: auto;
+}
+
+#fats-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fats-images img {
+    width: 175px;
+    height: auto;
+}
+
+#carbs-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+#carbs-images img {
+    max-width: 100%;
+    height: auto;
+}
+
+#protein-images {
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+
+#protein-images img {
+    max-width: 100%;
+    height: auto;
+}
+
+#fiber-images {
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+    
+    #fiber-mosaic img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+
+        
